@@ -1,0 +1,32 @@
+{
+  "name": "mjml-hbs-sample",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon --exec babel-node lib/server.js",
+    "build": "npx babel-node lib/build.js"
+  },
+  "author": {
+    "name": "Erica Prieto",
+    "email": "hello@ericaprieto.com"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "express": "^4.16.4",
+    "handlebars": "^4.7.6",
+    "lodash.get": "^4.4.2",
+    "merge-deep": "^3.0.3",
+    "mjml": "^4.3.1",
+    "mjml-react": "^1.0.45",
+    "nodemon": "^1.18.9",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "rimraf": "^3.0.2"
+  }
+}

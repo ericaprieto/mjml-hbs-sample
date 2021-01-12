@@ -1,0 +1,4 @@
+{
+  "greeting": "Olá {{user.name}}, você tem {{user.age}} anos",
+  "call_to_action": "Clique para saber mais"
+}
